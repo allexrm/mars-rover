@@ -1,0 +1,38 @@
+{
+  "name": "mars-rover",
+  "version": "1.0.0",
+  "description": "Mars Exploration Rover - Mission Control Simulator",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --detectOpenHandles",
+    "start": "ts-node --esm ./src/index.ts"
+  },
+  "keywords": [
+    "mars-rover",
+    "mars",
+    "rover",
+    "mission-control",
+    "explorer",
+    "mission"
+  ],
+  "author": "Allex M. Campos",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.6",
+    "@babel/preset-env": "^7.23.6",
+    "@babel/preset-typescript": "^7.23.3",
+    "@types/dotenv": "^8.2.0",
+    "@types/inquirer": "^9.0.7",
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.10.5",
+    "inquirer": "^9.2.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "chalk-pipe": "^5.1.2"
+  }
+}
