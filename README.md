@@ -13,8 +13,8 @@ Manage the landing and movements of a group of Rovers on the Martian surface.
 ### Default Setup
 
 ```bash
-git clone ...
-cd voyager-rover
+git clone https://github.com/allexrm/mars-rover.git
+cd mars-rover
 npm install
 npm start
 ```
